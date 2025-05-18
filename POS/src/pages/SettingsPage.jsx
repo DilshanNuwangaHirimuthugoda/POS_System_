@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 import { POSContext } from '../context/POSContext';
-import { ThemeToggle } from '../components/settings/ThemeToggle';
-import { StoreInfoForm } from '../components/settings/StoreInfoForm';
-import { ReceiptSettings } from '../components/settings/ReceiptSettings';
+import { ThemeToggle } from '../Components/pos/ThemeToggle';
+import { StoreInfoForm } from '../Components/settings/StoreInfoForm';
+import { ReceiptSettings } from '../Components/settings/ReceiptSettings';
 
 export const SettingsPage = () => {
   const { darkMode } = useContext(POSContext);
