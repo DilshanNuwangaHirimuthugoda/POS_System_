@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 import { POSContext } from '../context/POSContext';
-import { SearchBar } from '../components/pos/SearchBar';
-import { CategoryFilter } from '../components/pos/CategoryFilter';
-import { ProductCard } from '../components/pos/ProductCard';
+import { SearchBar } from '../Components/pos/SearchBar';      
+import { CategoryFilter } from '../Components/pos/CategoryFilter';
+import { ProductCard } from '../Components/pos/ProductCard';
 
 export const ProductsPage = () => {
   const { filteredProducts } = useContext(POSContext);
