@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { FileText } from 'lucide-react';
 import { POSContext } from '../context/POSContext';
-import { TransactionItem } from '../components/pos/TransactionItem';
+import { TransactionItem } from '../Components/pos/TransactionItem';
 
 export const TransactionsPage = () => {
   const { transactions, totalSales, darkMode } = useContext(POSContext);
